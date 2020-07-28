@@ -1,7 +1,6 @@
 import os, json, time
 from email_manager import EmailManager
 import sentry_sdk
-
 import logging
 
 logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(name)s - %(funcName)s - %(message)s")
@@ -16,7 +15,7 @@ def load_config():
             for cnf in config.keys():
                 os.environ[cnf] = config[cnf]
     except:
-        raise Exception('ERROR : Please locate config.json!')
+        raise Exception('Please edit config.JSON file.')
 
 
 # Loading config and starting the program.
