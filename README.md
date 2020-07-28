@@ -19,3 +19,4 @@ To download the CSV files that are sent from Crowdtangle.
 
 ### Known Issues
 * Download path must not include any special characters and should be written in English.
+- Please log in with a Microsoft account, like Outlook or Hotmail.
