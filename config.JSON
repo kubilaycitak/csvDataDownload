@@ -1,0 +1,17 @@
+{
+  "host": "outlook.office365.com",
+  "port": "993",
+
+  "email_address": " XXX ",
+  "password": " XXX ",
+  "mail_directory": "Inbox",
+
+  "sender": "noreply@crowdtangle.com",
+  "subject_keyword": "Data Download Request",
+
+  "download_path": " XXX ",
+
+  "sleep_seconds": "300",
+
+  "SENTRY_TOKEN": " XXX "
+}
