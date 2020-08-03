@@ -1,8 +1,12 @@
 import os, json, time
+
+from sentry_sdk import capture_exception
+
 from email_manager import EmailManager
 import sentry_sdk
 import logging
 
+# Initializing Logger
 logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(name)s - %(funcName)s - %(message)s")
 LOGGER = logging.getLogger(__name__)
 
@@ -29,6 +33,7 @@ def main():
             email_manager.download_attachments()
         except Exception as e:
             LOGGER.info("ERROR")
+            capture_exception(e)
             raise e
         time.sleep(int(os.environ['sleep_seconds']))  # wait
 
