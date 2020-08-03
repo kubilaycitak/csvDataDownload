@@ -103,10 +103,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="small fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="119" key="CommitChangelistDialog2" timestamp="1596463907462">
+    <state x="585" y="119" key="CommitChangelistDialog2" timestamp="1596463938939">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="585" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1596463907462" />
+    <state x="585" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1596463938939" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1596462843266">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -127,10 +127,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1596463862379" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1596463916962">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1596463946786">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1596463916962" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1596463946786" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/csvDataDownload$run.coverage" NAME="run Coverage Results" MODIFIED="1596463862368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

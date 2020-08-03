@@ -1,7 +1,5 @@
 import os, json, time
-
 from sentry_sdk import capture_exception
-
 from email_manager import EmailManager
 import sentry_sdk
 import logging
