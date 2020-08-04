@@ -10,6 +10,40 @@ To download the CSV files that are sent from Crowdtangle.
     ``` commandline
     $ pip install -r requirements.txt
     ```
+### Docker Setup
+
+- Build the docker image
+
+    ```
+    docker build --tag csvdatadownload:latest .
+    ```
+
+- To try it:
+
+    ```
+    docker run -d --name csvdatadownload -v /home/dev1/ftp:/data/ftp csvdatadownload:latest
+    ```
+
+- Remove container:
+
+    ```
+    docker rm -f csvdatadownload
+    ```
+
+- Build Crone Docker Container
+
+    ```
+    docker create --name csvdatadownload --shm-size=2g -v /home/dev1/ftp:/app/ftp csvdatadownload:latest
+
+    docker start csvdatadownload
+
+    ```
+
+- To view the logs of a Docker container in real time, use the following command:
+
+    ```
+    docker logs -f csvdatadownload
+    ```
 
 ### Usage
 - You can fill the " XXX " parts in the config.JSON file and you are good to go.
