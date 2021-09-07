@@ -1,6 +1,6 @@
 # Downloading CSV from Crowdtangle Mails
 ### Purpose
-To download the CSV files that are sent from Crowdtangle.
+- To download the CSV files that are sent from Crowdtangle.
 ### Pre-requisites
 - Crowdtangle user's facebook-related e-mail address.
 - Python 3.7
